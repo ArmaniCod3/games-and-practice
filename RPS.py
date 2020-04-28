@@ -20,7 +20,7 @@ def choice():
 
 cpu_choice = choice()
 
-#asks user for their choic
+#asks user for their choice of rock paper or scissors
 def get_user_choice():
     user_choice = ""
     res = input("Rock, Paper or Scissors? \n[a] Rock\n[b] Paper\n[c] Scissors\n>>>")
@@ -38,7 +38,7 @@ def get_user_choice():
         
 player_choice = get_user_choice()
 
-#code to see who wins
+#checks to see who won the round
 def results():
     if player_choice == "Rock" and cpu_choice == "Paper":
         winner = "Computer wins!"
